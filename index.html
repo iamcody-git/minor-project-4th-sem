@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>shoes project</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/3e83ef4338.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="photo/logo.jpg"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hideMenu()"></i>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Brand's</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="login.html">Login/Register</a></li>
+                        <!-- <li><a href="register.html">Register</a></li> -->
+                        
+  
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+
+            </nav>
+            <div class="text-box">
+                <h1> AAMP Shoes Center</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>
+                    Saepe cumque a est quae reprehenderit ullam necessitatibus, numquam in quaerat ut?</p>
+                <a href="" class="hero-btn">Visit Us Know</a>
+            </div>
+
+        </section>
+
+        <!-- ------ Course ------      -->
+
+        <section class="course">
+            <h1>Brand We Offer</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, sed!</p>
+
+            <div class="row">
+                <div class="course-col">
+                    <h3>Nike</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora perferendis quis odio velit vel quasi ab quos molestias! Reiciendis, nulla.</p>
+                </div>
+                <div class="course-col">
+                    <h3>Addidas</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora perferendis quis odio velit vel quasi ab quos molestias! Reiciendis, nulla.</p>
+                </div>
+
+                <div class="course-col">
+                    <h3>Puma</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora perferendis quis odio velit vel quasi ab quos molestias! Reiciendis, nulla.</p>
+                </div>
+            </div>
+
+        </section>
+
+<!-- ------ campus ------ -->
+
+.<section class="campus">
+    <h1>we are gobally aviliable</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, illum.</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="photo/s1.webp">
+            <div class="layer">
+                <h3>Nike</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="photo/s2.webp">
+            <div class="layer">
+                <h3>Puma</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="photo/s3.jpg">
+            <div class="layer">
+                <h3>Addidas</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+ <!-- ------- facilities--------- -->
+
+ <section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, similique.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="photo/s4.webp">
+            <h3>size </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facilis optio voluptatem fugit ducimus maxime!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="photo/s5.png">
+            <h3>Quality</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facilis optio voluptatem fugit ducimus maxime!</p>
+        </div>
+        <div class="facilities-col">
+            <img src="photo/s1.webp">
+            <h3>Comfort</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur facilis optio voluptatem fugit ducimus maxime!</p>
+        </div>
+    </div>
+
+ </section>
+
+<!-- -------- Call To Acton -------- -->
+
+<section class="cta">
+    <h1>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit. Est, maxime?</h1>
+    <a href="" class="hero-btn">Contact Us</a>
+
+</section>
+
+<!-- ----- footer ------ -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Quos incidunt eum omnis ex provident sequi vel blanditiis, necessitatibus alias enim.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    
+
+</section>
+
+
+     
+
+<!-------JavaScript for Toggle Menu------>
+                <script>
+                    var navLinks = document.getElementById("navLinks");
+                    function showMenu() {
+                        navLinks.style.right = "0";
+                    }
+                    function hideMenu() {
+                        navLinks.style.right = "-200px";
+                    }
+                </script>
+
+
+            </body>
+        </html>
+    </body>
+</html>
